@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creating a Basic Table</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 95%;
+            border-spacing: 10px;
+        }
+        
+        th {
+            text-align: left;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+        
+        td,
+        th {
+            padding: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>
+            Creating a Basic Table
+            
+            </h1>
+            <nav>
+                <a href="index.html">Basic Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="table2.html">Styling a Table</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="table3.html">Making a Calendar</a>
+            </nav>
+        </header>
+        <main>
+            <table>
+                <caption>This is a table!</caption>
+                <tr>
+                    <th> header</th>
+                    <th> header</th>
+                    <th> header</th>
+                    <th> header</th>
+                    <th> header</th>
+                </tr>
+                <tr>
+                    <th> header</th>
+                    <td> cell</td>
+                    <td> cell</td>
+                    <td colspan="2" style="background:ivory;"> span 2 columns</td>
+                </tr>
+                <tr>
+                    <th> header</th>
+                    <td rowspan="2" style="background:ivory;"> 2 rows</td>
+                    <td> cell</td>
+                    <td> cell</td>
+                    <td> cell</td>
+                </tr>
+                <tr>
+                    <th> header</th>
+                    <td> cell</td>
+                    <td> cell</td>
+                    <td> cell</td>
+
+                </tr>
+                <tr>
+                    <th> header</th>
+                    <td> cell</td>
+                    <td> cell</td>
+                    <td> cell</td>
+                    <td> cell</td>
+                </tr>
+
+
+
+            </table>
+
+
+
+
+        </main>
+
+
+
+    </div>
+    <!-- end container -->
+
+
+</body>
+
+
+
+</html>
