@@ -1,5 +1,5 @@
 html {
-    background: rgb(48, 54, 11);
+    background: #FFFFFF;
     color: rgb(48, 54, 11);
     font-family: sans-serif;
     font-size: 1.25em;
@@ -9,9 +9,8 @@ html {
     width: 1060px;
     min-height: 750px;
     margin: 10px auto;
-    background: rgba(174, 183, 193, .85);
-    border: 2px solid rgb(48, 54, 11);
-    border-radius: 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
     padding: 15px;
 }
 
@@ -43,17 +42,18 @@ nav {
 
 nav a {
     padding: 15px 35px;
-    background: rgb(48, 54, 11);
-    color: rgb(174, 183, 193);
-    border: 2px solid rgb(174, 183, 193);
+    background: rgb(30, 20, 40);
+    color: #FFFFFF;
+    border: 2px solid darkgrey;
     border-radius: 30px;
     text-decoration: none;
+    margin:1em 2em;
 }
 
 nav a:hover {
-    background: rgb(174, 183, 179);
-    border: 2px solid rgb(48, 54, 11);
-    color: rgb(48, 54, 11);
+    background: #FFFFFF;
+    border: 2px solid darkgrey;
+    color: rgb(30, 20, 40);
 }
 
 h1 {
